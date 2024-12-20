@@ -8,7 +8,7 @@ from dipy.segment.mask import median_otsu
 
 
 # Example DWI file path
-dwi_file = "/Users/egzonamorina/opt/anaconda3/envs/cirq-env/ds005713-download/sub-01/dwi/sub-01_run-01_dwi.nii.gz"
+dwi_file = "/Volumes/EGZONA/Neuro_Climate_Data/sub-01/dwi/sub-01_run-01_dwi.nii.gz"
 
 # Extract subject folder and run ID
 subject_folder = os.path.dirname(dwi_file)  # Folder containing the files
